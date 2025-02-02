@@ -1,5 +1,6 @@
 #Python weight converter
 print("\033[1;41m***Welcome to weight conversion program*****\033[0m\n")
+# 👆 printing in bold (1m) and highlighting with red(41m) in python
 weight=float(input("Enter your weight: "))
 unit = input(" The weight is in Kilograms or Pounds (KG or LBS) ")
 unit=unit.replace(" ","").upper()
